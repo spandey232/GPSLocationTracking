@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.journaldev.gpslocationtracking.LoginPage">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:text="MMMUT\n GPS \nTracking"
+        android:textColor="#846ffa"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Location:"
+        android:textSize="35dp"
+        android:textColor="#201e1b"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:background="#a1f9dc"
+        android:textSize="35dp"
+        android:hint="Enter Location"
+        android:textColor="#201e1b" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:onClick="click1"/>
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
